@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package app;
+
+service Store {
+  // Add a key-value data
+  rpc put (KeyValueModel) returns (KeyValueModel) {}
+   // Get a specific key-value data
+  rpc get (Key) returns (KeyValueModel) {}
+  // Get all keys stored
+  rpc getAllKeys (Void) returns (List) {}
+}
+
+// The model for a key-value data
+message KeyValueModel {
+  string key = 1;
+  string value = 2;
+}
+
+// The model for a key request and response
+message Key {
+  string key = 1;
+}
+
+message List {
+   map<string, string> map = 1;
+}
+
+// Void input params for getAllKeys request
+message Void {}
+
