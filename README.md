@@ -10,6 +10,7 @@ Isabella Carine Cruz Nicácio
 Hugo Bastos de Paula
 
 ## Instruções de utilização
+Execute o servidor antes do cliente. 
 
 Código para executar o server.py 
 ```
@@ -17,7 +18,7 @@ cd app
 python server.py
 ```
 
-Código para executar o server.py
+Código para executar o client.py
 ```
 cd app
 python client.py
