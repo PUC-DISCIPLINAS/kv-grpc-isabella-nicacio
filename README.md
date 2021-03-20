@@ -7,10 +7,15 @@ Aplicação de Stored Key-value utilizando o Grpc (Google Remote Procedure Call)
 Isabella Carine Cruz Nicácio
 
 ## Professor
-Hugo Bastos de Paula
+- Hugo Bastos de Paula
+- Ricardo Carlini Sperandio
 
 ## Instruções de utilização
-Execute o servidor antes do cliente. 
+1. Baixar as dependências descritas no arquivo **requirements.txt**
+
+2. Executar os seguintes comandos:
+
+OBS: **É importante executar o servidor antes do cliente**
 
 Código para executar o server.py 
 ```
@@ -24,7 +29,10 @@ cd app
 python client.py
 ```
 
-Siga as instruções exibidas no console para as operações de adicionar chave-valor, selecionar uma chave-valor a partir da chave fornecida e listar todas as chaves cadastradas.
+3. Siga as instruções exibidas no console para as operações de:
+- Adicionar chave-valor;
+- Selecionar uma chave-valor a partir da chave fornecida;
+- Listar todas as chaves cadastradas.
 
 kv-grpc-isabella-nicacio created by GitHub Classroom
 
